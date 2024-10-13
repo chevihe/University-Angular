@@ -1,0 +1,9 @@
+[
+    { "name": "book", "icon": "book" },
+    { "name": "translate", "icon": "translate" },
+    { "name": "language", "icon": "language" },
+    { "name": "school", "icon": "school" },
+    { "name": "speaker_notes", "icon": "speaker_notes" },
+    { "name": "gavel", "icon": "gavel" } 
+  ]
+  

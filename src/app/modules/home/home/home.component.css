@@ -1,0 +1,6 @@
+.home-section {
+    height: 100vh; /* גובה מקסימלי לתמונת הרקע */
+    background-position: center; /* מיקום תמונת רקע במרכז */
+    padding: 100px 0; /* מרווח פנים לתוכן במעלה הרקע */
+    text-align: right; 
+} 

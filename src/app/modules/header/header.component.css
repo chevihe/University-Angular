@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #f8f9fa; /* רקע צבע */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* צל */
+}
+
+.navbar-brand {
+    font-weight: bold; /* משקל גופן עבה */
+    color: #343a40; /* צבע גופן */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; /* מרווח לימין בין פריטי הניווט */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40; /* צבע גופן */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* צבע גופן בעת העטלף */
+}

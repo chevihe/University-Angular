@@ -1,0 +1,13 @@
+[
+    { "name": "arrow_up", "icon": "arrow_up" },
+    { "name": "arrow_down", "icon": "arrow_down" },
+    { "name": "arrow_left", "icon": "arrow_left" },
+    { "name": "arrow_right", "icon": "arrow_right" },
+    { "name": "arrow_back", "icon": "arrow_back" },
+    { "name": "arrow_forward", "icon": "arrow_forward" },
+    { "name": "arrow_drop_down", "icon": "arrow_drop_down" },
+    { "name": "arrow_drop_up", "icon": "arrow_drop_up" },
+    { "name": "expand_less", "icon": "expand_less" },
+    { "name": "expand_more", "icon": "expand_more" }
+  ]
+  

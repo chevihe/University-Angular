@@ -1,0 +1,12 @@
+
+<ul class="list-group">
+    <li *ngFor="let course of Courses" class="list-group-item">
+        <div class="row">
+            <app-single-course
+             [course]="course" 
+             [user]="user.id"></app-single-course>
+        </div>
+        <!-- <div>{{course|json}}</div> -->
+    </li>
+</ul>
+<!-- [teacherName]="getTeacherName(course.techerId)"  -->

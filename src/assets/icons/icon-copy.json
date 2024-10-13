@@ -1,0 +1,9 @@
+[
+    { "name": "camera", "icon": "camera" },
+    { "name": "photo_library", "icon": "photo_library" },
+    { "name": "lens", "icon": "lens" },
+    { "name": "settings", "icon": "settings" },
+    { "name": "brightness", "icon": "brightness" },
+    { "name": "crop", "icon": "crop" }
+  ]
+  

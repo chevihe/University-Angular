@@ -1,0 +1,26 @@
+.container {
+    max-width: 400px; /* רוחב מרבי של הטופס */
+    margin: auto; /* למרכז את הטופס באמצעות העצמים */
+    background-color: #f7f7f7; /* רקע צבע */
+    padding: 20px; /* מרווח פנים */
+    border-radius: 5px; /* פינות מעוגלות */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* צל */
+}
+
+.mt-3 {
+    margin-top: 1rem; /* מרווח למעלה של הקישור */
+}
+
+.alert {
+    margin-top: 0.5rem; /* מרווח למעלה בין הודעות השגיאה */
+}
+.vh-100 {
+    min-height: 100vh; /* גובה מינימלי של 100% לקובץ העמוד */
+}
+.card {
+    max-width: 400px; /* רוחב מרבי של הקובץ הנכון */
+    background-color: #f7f7f7; /* לקובץ הנכון */
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* צל */
+    margin-top: 50px;
+}

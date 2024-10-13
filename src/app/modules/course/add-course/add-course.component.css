@@ -1,0 +1,24 @@
+.icon-selector {
+    margin-top: 20px;
+  }
+  
+  .icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .icon-item {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .icon-item:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,33 @@
+
+<div class="container mt-4">
+    <div class="card">
+      <div class="card-header bg-primary text-white">
+      </div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h3 class="card-title">
+              {{ course.name }}
+          </h3>
+          <img src="{{categoryIcon}}" class="img-thumbnail" style="max-width: 80px; max-height: 80px;" alt="Category Image">
+      </div>
+        <p class="card-text">
+          <strong>מספר השיעורים</strong> {{ course.count }}<br>
+          <strong>תאריך התחלה:</strong> {{ course.startdate }}<br>
+          
+          <strong>סוג הלמידה:</strong> {{ course.learn }}<br>//להפוך לאיקון ע"י pipe
+         <strong>שם המרצה:</strong>{{teacherName}}<br>
+        </p>
+        <strong>סיליבוס:</strong><br>
+          <div *ngFor="let topic of course.syllabus">
+            <strong>{{topic.name}}</strong>
+            <strong>{{topic.icon}}</strong>
+          </div>
+        <div class="col-md-4">
+            <img class="img-fluid" src="{{course.img}}" alt="Course Image">
+          </div>
+      </div>
+      <div *ngIf="course.techerId==user"  class="card-footer text-right">
+        <button class="btn btn-primary" (click)="update(course.id)">עדכון</button>
+      </div>
+    </div>
+  </div>

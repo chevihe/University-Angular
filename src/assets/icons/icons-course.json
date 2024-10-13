@@ -1,0 +1,9 @@
+[
+    { "name": "school", "icon": "school" },
+    { "name": "book", "icon": "book" },
+    { "name": "graduation_cap", "icon": "graduation_cap" },
+    { "name": "group", "icon": "group" },
+    { "name": "assignment", "icon": "assignment" },
+    { "name": "calendar_today", "icon": "calendar_today" }
+  ]
+  

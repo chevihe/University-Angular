@@ -1,0 +1,9 @@
+[
+    { "name": "music_note", "icon": "music_note" },
+    { "name": "headphones", "icon": "headphones" },
+    { "name": "guitar", "icon": "guitar" },
+    { "name": "piano", "icon": "piano" },
+    { "name": "mic", "icon": "mic" },
+    { "name": "volume_up", "icon": "volume_up" }
+  ]
+  

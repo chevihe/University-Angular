@@ -1,0 +1,9 @@
+[
+    { "name": "computer", "icon": "computer" },
+    { "name": "code", "icon": "code" },
+    { "name": "network_wifi", "icon": "network_wifi" },
+    { "name": "cloud", "icon": "cloud" },
+    { "name": "bug_report", "icon": "bug_report" },
+    { "name": "keyboard", "icon": "keyboard" }
+  ]
+  

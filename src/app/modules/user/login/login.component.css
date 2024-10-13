@@ -1,0 +1,21 @@
+.container {
+    max-width: 400px; /* רוחב מרבי של הטופס */
+    margin: auto; /* למרכז את הטופס באמצעות העצמים */
+    background-color: #f7f7f7; /* רקע צבע */
+    padding: 20px; /* מרווח פנים */
+    border-radius: 5px; /* פינות מעוגלות */
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1); /* צל */
+}
+.alert {
+    margin-top: 0.5rem; /* מרווח למעלה בין הודעות השגיאה */
+}
+.vh-100 {
+    min-height: 10vh; /* גובה מינימלי של 100% לקובץ העמוד */
+}
+.card {
+    max-width: 400px; /* רוחב מרבי של הקובץ הנכון */
+    background-color: #f7f7f7; /* לקובץ הנכון */
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* צל */
+    margin-top: 50px;
+}

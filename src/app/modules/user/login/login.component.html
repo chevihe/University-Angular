@@ -1,0 +1,33 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+<form [formGroup]="userForm" class="card p-4">
+    <div class="form-group">
+        <label for="name" class="text-right">שם:</label>
+        <input type="text" class="form-control" id="name" formControlName="name">
+        <ng-container *ngIf="userForm.controls['name'].errors && (userForm.controls['name'].dirty||userForm.controls['name'].touched)">
+            <div class="alert alert-danger" *ngIf="userForm.controls['name'].errors['required']" class="text-right">This field is required</div>
+            <div class="alert alert-danger" *ngIf="userForm.controls['name'].errors['minlength']" class="text-right">This field is must be at least 3 chars</div>
+        </ng-container>
+        <label for="address" class="text-right">כתובת:</label>
+        <input type="text" class="form-control" id="name" formControlName="address">
+        <ng-container *ngIf="userForm.controls['address'].errors && (userForm.controls['address'].dirty||userForm.controls['address'].touched)">
+            <div class="alert alert-danger" *ngIf="userForm.controls['address'].errors['required']" class="text-right">This field is required</div>
+        </ng-container>
+        <label for="email" class="text-right">מייל:</label>
+        <input type="text" class="form-control" id="name" formControlName="email">
+        <ng-container *ngIf="userForm.controls['email'].errors && (userForm.controls['email'].dirty||userForm.controls['email'].touched)">
+            <div class="alert alert-danger" *ngIf="userForm.controls['email'].errors['required']" class="text-right">This field is required</div>
+            <div class="alert alert-danger" *ngIf="userForm.controls['email'].errors['email']" class="text-right">The email address is invalid</div>
+        </ng-container>
+        <label for="password" class="text-right">סיסמא:</label>
+        <input type="password" class="form-control" id="name" formControlName="password">
+        <ng-container *ngIf="userForm.controls['password'].errors && (userForm.controls['password'].dirty||userForm.controls['password'].touched)">
+            <div class="alert alert-danger" *ngIf="userForm.controls['password'].errors['required']" class="text-right">This field is required</div>
+            <div class="alert alert-danger" *ngIf="userForm.controls['password'].errors['minlength']" class="text-right">This field is must be at least 8 chars</div>
+        </ng-container>
+    </div>
+    <!-- {{userForm.value|json}} -->
+    <br>
+    <!-- {{currentUser|json}} -->
+    <button class="btn btn-primary" (click)="saveUser()" [disabled]="!userForm.valid">הרשמה</button>
+</form>
+</div>
